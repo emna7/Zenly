@@ -1,0 +1,14 @@
+syntax = "proto3";
+package ntpserver;
+
+message Request {
+    string ntpip = 1;
+}
+
+message Response {
+    string ntpresponse = 1;
+}
+
+service NtpService {
+    rpc GetServer(Request) returns (Response) {}
+}
