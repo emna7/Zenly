@@ -6,13 +6,17 @@ the time via NTP.
 ## Go Installation
 
 After Downlowding Go:
+
 1- Extract the archive downloaded into usr/local:
+
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.16.2.linux-amd64.tar.gz
 
 2- Add /usr/local/go/bin to the PATH environment variable
+
 export PATH=$PATH:/usr/local/go/bin
 
 3- Verify that you've installed Go by opening a command prompt and typing the following command: 
+
 $ go version
 
 ## Protocol Buffer Compiler Installation
